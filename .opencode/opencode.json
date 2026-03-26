@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ollama": {
+      "options": {
+        "timeout": 1200000,
+        "chunkTimeout": 1200000
+      }
+    }
+  },
+  "permission": {
+    "edit": "allow",
+    "bash": "allow",
+    "webfetch": "ask"
+  },
+  "instructions": [
+    "AGENTS.md",
+    ".opencode/COMMON.md",
+    ".opencode/rules/*.md"
+  ]
+}
