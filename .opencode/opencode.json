@@ -13,6 +13,9 @@
     "bash": "allow",
     "webfetch": "ask"
   },
+  "plugin": [
+    "superpowers@git+https://github.com/obra/superpowers.git"
+  ],
   "instructions": [
     "AGENTS.md",
     ".opencode/COMMON.md",
